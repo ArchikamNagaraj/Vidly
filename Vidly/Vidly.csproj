@@ -211,9 +211,30 @@
     <Compile Include="Migrations\201912010830321_AddDOB.Designer.cs">
       <DependentUpon>201912010830321_AddDOB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912010949293_updateMovieAddGenre.cs" />
+    <Compile Include="Migrations\201912010949293_updateMovieAddGenre.Designer.cs">
+      <DependentUpon>201912010949293_updateMovieAddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912010951196_updateMovieAddGenre-force.cs" />
+    <Compile Include="Migrations\201912010951196_updateMovieAddGenre-force.Designer.cs">
+      <DependentUpon>201912010951196_updateMovieAddGenre-force.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912010953466_AddGenretoMovie.cs" />
+    <Compile Include="Migrations\201912010953466_AddGenretoMovie.Designer.cs">
+      <DependentUpon>201912010953466_AddGenretoMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912010956385_RemoveDuplicateGenreID.cs" />
+    <Compile Include="Migrations\201912010956385_RemoveDuplicateGenreID.Designer.cs">
+      <DependentUpon>201912010956385_RemoveDuplicateGenreID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912010957239_AddValuestoGenre.cs" />
+    <Compile Include="Migrations\201912010957239_AddValuestoGenre.Designer.cs">
+      <DependentUpon>201912010957239_AddValuestoGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -281,6 +302,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Shared\_navbar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -325,6 +347,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912010830321_AddDOB.resx">
       <DependentUpon>201912010830321_AddDOB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010949293_updateMovieAddGenre.resx">
+      <DependentUpon>201912010949293_updateMovieAddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010951196_updateMovieAddGenre-force.resx">
+      <DependentUpon>201912010951196_updateMovieAddGenre-force.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010953466_AddGenretoMovie.resx">
+      <DependentUpon>201912010953466_AddGenretoMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010956385_RemoveDuplicateGenreID.resx">
+      <DependentUpon>201912010956385_RemoveDuplicateGenreID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010957239_AddValuestoGenre.resx">
+      <DependentUpon>201912010957239_AddValuestoGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
