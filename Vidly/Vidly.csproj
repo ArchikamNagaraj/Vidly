@@ -207,6 +207,10 @@
     <Compile Include="Migrations\201912010815050_updateMembershiptypedata.Designer.cs">
       <DependentUpon>201912010815050_updateMembershiptypedata.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912010830321_AddDOB.cs" />
+    <Compile Include="Migrations\201912010830321_AddDOB.Designer.cs">
+      <DependentUpon>201912010830321_AddDOB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -318,6 +322,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912010815050_updateMembershiptypedata.resx">
       <DependentUpon>201912010815050_updateMembershiptypedata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912010830321_AddDOB.resx">
+      <DependentUpon>201912010830321_AddDOB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
